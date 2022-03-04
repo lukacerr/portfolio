@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb", "airbnb/hooks", "airbnb-typescript"],
+  "ignorePatterns": ["**/*.js"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "max-len": ["error", { "code": 120 }]
+    // "no-anonymous-exports-page-templates": "warn",
+    // "limited-exports-page-templates": "warn"
+  }
+}
