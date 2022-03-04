@@ -1,8 +1,12 @@
 import * as React from 'react';
-import { Heading } from '@chakra-ui/react';
+import * as Chakra from '@chakra-ui/react';
 
 function IndexPage(): JSX.Element {
-  return <Heading>hola!</Heading>;
+  return (
+    <Chakra.Box p={4}>
+      <Chakra.Heading mb={4}>In progress... sorry!</Chakra.Heading>
+    </Chakra.Box>
+  );
 }
 
 export default IndexPage;

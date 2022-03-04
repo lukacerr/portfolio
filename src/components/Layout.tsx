@@ -9,10 +9,10 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
     <>
       <Helmet>
         <meta name="author" content="Luka Cerrutti" />
-        <title>...</title>
-        <meta name="description" content="..." />
-        <meta name="keywords" content="..." />
-        <meta name="theme-color" content="#000" />
+        <title>In progress - Luka Cerrutti</title>
+        {/* <meta name="description" content="..." /> */}
+        {/* <meta name="keywords" content="..." /> */}
+        {/* <meta name="theme-color" content="#000" /> */}
       </Helmet>
       <Navbar />
       {children}
