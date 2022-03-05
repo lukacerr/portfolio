@@ -4,15 +4,19 @@ import { Helmet } from 'react-helmet';
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 
-function Layout({ children }: { children: React.ReactNode }): JSX.Element {
+interface Props {
+  children: React.ReactNode
+}
+
+function Layout({ children }: Props): JSX.Element {
   return (
     <>
       <Helmet>
         <meta name="author" content="Luka Cerrutti" />
-        <title>In progress - Luka Cerrutti</title>
-        {/* <meta name="description" content="..." /> */}
-        {/* <meta name="keywords" content="..." /> */}
-        {/* <meta name="theme-color" content="#000" /> */}
+        <title>Luka Cerrutti</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="theme-color" content="#ffb7c5" />
       </Helmet>
       <Navbar />
       {children}
@@ -21,4 +25,4 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
   );
 }
 
-export default Layout as React.FC;
+export default Layout as React.FC<Props>;
