@@ -21,4 +21,4 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
   );
 }
 
-export default Layout;
+export default Layout as React.FC;

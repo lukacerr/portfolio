@@ -5,4 +5,4 @@ function NotFoundPage(): JSX.Element {
   return <Heading>404 not found</Heading>;
 }
 
-export default NotFoundPage;
+export default NotFoundPage as React.FC;

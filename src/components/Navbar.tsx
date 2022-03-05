@@ -13,4 +13,4 @@ function Navbar(): JSX.Element {
   );
 }
 
-export default Navbar;
+export default Navbar as React.FC;
