@@ -15,4 +15,4 @@ const theme = extendTheme({
   },
 });
 
-export default theme;
+export default { theme, portalZIndex: 40 };

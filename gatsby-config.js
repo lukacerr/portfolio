@@ -5,7 +5,6 @@ module.exports = {
     siteUrl: `https://lukacerrutti.netlify.app`,
   },
   plugins: [
-    '@chakra-ui/gatsby-plugin',
     'gatsby-plugin-sass',
     'gatsby-plugin-eslint',
     'gatsby-plugin-react-helmet',
