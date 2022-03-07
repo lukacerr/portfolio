@@ -31,6 +31,7 @@ module.exports = {
       __key: 'images',
     },
     'gatsby-plugin-image',
+    'gatsby-plugin-netlify',
     'gatsby-plugin-offline',
   ],
 };
